@@ -1,0 +1,39 @@
+body {
+    font-family: "Verdana", sans-serif;
+    background-color: #E9E9E9;
+}
+.blog-card {
+    padding: 20px;
+    margin: 8px;
+     border-radius: 16px;
+    background-color: #FFF;
+    border: 2px  #DDD;
+}
+
+.project-list {
+    list-style-type: none;
+}
+.project-list li {
+    margin-top: 10px ;
+}
+.project-link {
+    text-decoration: none;
+    color: #EC86DB;
+    font-size: 15px;
+}
+.project-link:hover {
+    color: #0E0F0F;
+}
+.back-button {
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 5px 10px;
+    color: #FFF;;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: #F5A4E7;
+}
+
+
+
