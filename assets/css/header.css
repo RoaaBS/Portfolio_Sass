@@ -1,0 +1,53 @@
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 25px;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 13px;
+}
+figure img{
+    border-radius: 20px;
+}
+#navbar {
+    display: flex; 
+    justify-content: right; 
+    background-color: #EEBCC3;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between; 
+    list-style-type: none;
+    width: 100%; 
+    padding: 0;
+    margin: 4px;
+    flex-wrap: nowrap; 
+}
+
+.nav-list li {
+    padding: 0 3px; 
+}
+
+.nav-list a {
+    text-decoration: none; 
+    color: black; 
+    font-size: 17px;
+    display: block; 
+}
+
+.nav-list a:hover {
+    color: #EFE8EF; 
+}
+
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
