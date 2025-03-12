@@ -16,7 +16,7 @@ figure img{
 #navbar {
     display: flex; 
     justify-content: right; 
-    background-color: #EEBCC3;
+    /* background-color: #EEBCC3; */
     border-radius: 6px;
     margin-bottom: 10px;
 }
@@ -43,7 +43,7 @@ figure img{
 }
 
 .nav-list a:hover {
-    color: #EFE8EF; 
+    color: #EEBCC3; 
 }
 
 .menu-icon {
