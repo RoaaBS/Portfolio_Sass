@@ -1,41 +1,41 @@
 body {
-    font-family: "Verdana", sans-serif;
-    background-color: #E9E9E9;
+  font-family: "Verdana", sans-serif;
+  background-color: #E9E9E9;
 }
+
 .blog-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 3fr);
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(1, 3fr);
+  gap: 20px;
 }
 
 .blog-card {
-    padding: 20px;
-    margin: 8px;
-     border-radius: 16px;
-    background-color: #FFF;
-    border: 2px  #DDD;
+  padding: 20px;
+  margin: 8px;
+  border-radius: 16px;
+  background-color: #FFF;
+  border: 2px #DDD;
 }
-.blog-card p{
-    font-size: 17px;
-    font-family: "Raleway", sans-serif; /* I got it from google font  */
+.blog-card p {
+  font-size: 17px;
+  font-family: "Raleway", sans-serif; /* I got it from google font  */
 }
+
 h2 {
-    font-size: 20px;
-    margin: 5px ;
+  font-size: 20px;
+  margin: 5px;
 }
 
 .back-button {
-    margin-top: 20px;
-    padding: 5px 10px;
-    font-size: 15px;
-   
-    color: #FFF;;
-    border: none;
-    border-radius: 9px;
-    cursor: pointer;
-    background-color: #1E161D;
+  margin-top: 20px;
+  padding: 5px 10px;
+  font-size: 15px;
+  color: #FFF;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  background-color: #1E161D;
 }
-
 .back-button:hover {
-    background-color: #0C0C0C;
-}
+  background-color: #0C0C0C;
+}/*# sourceMappingURL=education.css.map */

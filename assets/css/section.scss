@@ -1,0 +1,40 @@
+
+$background_color:#FFF;
+$border_color:#DDD;
+$box_shadow:black;
+$link_color:#3E3C3C;
+/* start section and footer */
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.blog-card {
+    background-color: $background_color;
+    border: 2px solid $border_color;
+    border-radius: 20px;
+    padding: 13px;
+    box-shadow: 0 2px 5px rgba($box_shadow, 0.1);
+ p{
+    font-size: 17px;
+    font-family: "Raleway", sans-serif;
+}}
+
+.description ul {
+    margin: 10px 0;
+    font-size: 15px;
+ 
+}
+h2 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.link {
+    color: $link_color;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+/* end section &footer*/

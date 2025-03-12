@@ -1,21 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
-@import url('header.css');
-@import url('responsive.css');
-@import url('section.css');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+header {
+  margin-bottom: 20px;
+}
+header h1 {
+  font-size: 25px;
+  margin: 0;
+}
+header h2 {
+  font-size: 13px;
+}
 
+figure img {
+  border-radius: 20px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: right;
+  /* background-color: #EEBCC3; */
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  margin: 4px;
+  flex-wrap: nowrap;
+}
+.nav-list li {
+  padding: 0 3px;
+}
+.nav-list a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  display: block;
+}
+.nav-list a:hover {
+  color: #EEBCC3;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Media query for mobile screens (up to 480px) */
+/* start section and footer */
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.blog-card {
+  background-color: #FFF;
+  border: 2px solid #DDD;
+  border-radius: 20px;
+  padding: 13px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.blog-card p {
+  font-size: 17px;
+  font-family: "Raleway", sans-serif;
+}
+
+.description ul {
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.link {
+  color: #3E3C3C;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* end section &footer*/
 body {
-    font-family: "Verdana", sans-serif;
-    background-color: #E9E9E9;
+  font-family: "Verdana", sans-serif;
+  background-color: #E9E9E9;
 }
 
 .container {
-    max-width: 1190px;
-    padding: 25px;
-}
-
-
-
-
-
+  max-width: 1190px;
+  padding: 25px;
+}/*# sourceMappingURL=style.css.map */

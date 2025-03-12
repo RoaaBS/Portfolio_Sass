@@ -1,37 +1,36 @@
-
 /* start section and footer */
 .blog-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
 .blog-card {
-    background-color: #FFF;
-    border: 2px solid #DDD;
-    border-radius: 20px;
-    padding: 13px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #FFF;
+  border: 2px solid #DDD;
+  border-radius: 20px;
+  padding: 13px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-.blog-card p{
-    font-size: 17px;
-    font-family: "Raleway", sans-serif;
+.blog-card p {
+  font-size: 17px;
+  font-family: "Raleway", sans-serif;
 }
 
 .description ul {
-    margin: 10px 0;
-    font-size: 15px;
- 
+  margin: 10px 0;
+  font-size: 15px;
 }
+
 h2 {
-    font-size: 20px;
-    margin: 5px 0;
+  font-size: 20px;
+  margin: 5px 0;
 }
 
 .link {
-    color: #3E3C3C;
-    text-decoration: none;
-    font-weight: bold;
-    
+  color: #3E3C3C;
+  text-decoration: none;
+  font-weight: bold;
 }
-/* end section &footer*/
+
+/* end section &footer*//*# sourceMappingURL=section.css.map */

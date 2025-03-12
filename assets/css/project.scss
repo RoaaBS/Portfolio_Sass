@@ -1,0 +1,42 @@
+$background-color:#E9E9E9;
+$border_color:#DDD;
+$card_color: #FFF;
+$link_color:#F5A4E7;
+
+body {
+    font-family: "Verdana", sans-serif;
+    background-color:$background-color ;
+}
+.blog-card {
+    padding: 20px;
+    margin: 8px;
+     border-radius: 16px;
+    background-color: $card_color;
+    border: 2px  $border_color;
+}
+
+.project-list {
+    list-style-type: none;
+ li {
+    margin-top: 10px ;
+}}
+.project-link {
+    text-decoration: none;
+    color: $link_color;
+    font-size: 15px;
+&:hover {
+    color: #0E0F0F;
+}}
+.back-button {
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 5px 10px;
+    color: #FFF;;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color:$link_color;
+}
+
+
+

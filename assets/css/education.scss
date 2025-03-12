@@ -1,0 +1,45 @@
+$background-card:#FFF;
+$border_color:#DDD;
+$background-color:#E9E9E9;
+$button:#1E161D;
+$button_hover:#0C0C0C;
+
+
+body {
+    font-family: "Verdana", sans-serif;
+    background-color: $background-color;
+}
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    gap: 20px;
+}
+
+.blog-card {
+    padding: 20px;
+    margin: 8px;
+     border-radius: 16px;
+    background-color:$background-card ;
+    border: 2px  $border_color;
+ p{
+    font-size: 17px;
+    font-family: "Raleway", sans-serif; /* I got it from google font  */
+}}
+h2 {
+    font-size: 20px;
+    margin: 5px ;
+}
+
+.back-button {
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-size: 15px;
+   
+    color: $background-card;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color:$button ;
+&:hover {
+    background-color:$button_hover ;
+}}
